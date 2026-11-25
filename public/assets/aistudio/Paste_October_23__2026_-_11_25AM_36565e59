@@ -1,0 +1,934 @@
+# TASK: Transform My Existing Portfolio Into a Premium Animated Full-Stack Developer Portfolio
+
+## 1. PROJECT CONTEXT & OBJECTIVE
+
+I already have a working animated portfolio website built with React, TypeScript, Tailwind CSS, Framer Motion, and Lucide React.
+
+The existing design includes:
+- Oversized gradient typography
+- Dark cinematic backgrounds
+- A large interactive 3D character in the hero
+- Magnetic mouse-following animations
+- Scroll-driven image marquees
+- Character-by-character text reveals
+- Beautiful section transitions
+- Sticky stacking project cards
+- Smooth entrance animations
+- Interactive buttons and hover effects
+
+**IMPORTANT: Do not rebuild the entire website from scratch or replace its existing visual identity.**
+
+Instead, carefully analyze and improve the existing implementation, preserving the signature animation style while transforming the website into a high-end portfolio for a professional MERN Stack and Full-Stack Web Developer.
+
+The final experience should look like a premium, award-worthy developer portfolio with polished interactive design, clean code, smooth motion, and excellent responsiveness.
+
+The website must communicate my technical expertise, services, development capabilities, and projects while encouraging potential clients to contact me.
+
+---
+
+## 2. MY PROFESSIONAL INFORMATION
+
+**Name:** Subhan  
+**Professional Title:** Full-Stack Developer | MERN Stack Specialist  
+**Email:** info@subhan.com
+
+### Core Technical Expertise
+
+**Frontend Development**
+- React.js
+- Next.js
+- JavaScript
+- TypeScript
+- HTML5
+- CSS3
+- Tailwind CSS
+- Responsive Web Design
+- Component-Based Architecture
+
+**Backend Development**
+- Node.js
+- Express.js
+- REST API Development
+- Authentication and Authorization
+- Backend Integration
+- Server-Side Application Development
+
+**Database Technologies**
+- MongoDB
+- MySQL
+- PostgreSQL
+- Database Integration
+- Database Schema Design
+- Data Management
+
+**Animation & Interactive Interfaces**
+- Framer Motion / Motion for React
+- GSAP
+- ScrollTrigger
+- Lenis Smooth Scrolling
+- Interactive UI Components
+- Magnetic Hover Effects
+- Scroll-Triggered Animations
+- Parallax Effects
+- Animated Typography
+- Micro-interactions
+
+**Additional Development Capabilities**
+- Git and GitHub
+- API Integration
+- Responsive UI Implementation
+- Performance Optimization
+- Reusable Component Development
+- Deployment Workflows
+
+Present these technologies professionally, without making the website feel like an endless list of technology names.
+
+Do not invent employment history, client names, qualifications, awards, exact experience duration, or technical achievements.
+
+Use editable placeholders for information that has not been provided.
+
+---
+
+## 3. DESIGN DIRECTION — PRESERVE THE EXISTING DNA
+
+Maintain the existing dark visual identity.
+
+### Color System
+
+Primary Background: `#0C0C0C`  
+Secondary Background: `#151515`  
+Primary Text: `#D7E2EA`  
+Muted Text: `#9FAAB4`  
+Heading Gradient: `#646973 → #BBCCD7`  
+Light Section Background: `#FFFFFF`
+
+Accent Colors:
+- Electric Purple: `#A855F7`
+- Vibrant Magenta: `#D946EF`
+- Subtle Cyan: `#67E8F9`
+
+Use accent colors selectively for interactive elements, animated highlights, and important calls to action.
+
+Avoid excessive neon colors, repetitive gradients, or generic AI-generated dashboard aesthetics.
+
+### Typography
+
+Keep Kanit as the main heading font to preserve the existing character.
+
+Use a highly readable complementary font for longer body text if needed.
+
+Typography must feel bold, contemporary, and editorial.
+
+Maintain huge oversized headings, but improve legibility and responsive scaling.
+
+### Design Principles
+
+- Premium creative-developer aesthetic
+- Bold typography with strong hierarchy
+- High-quality animations
+- Interactive storytelling
+- Asymmetric layouts
+- Intentional whitespace
+- Consistent alignment
+- Beautiful micro-interactions
+- Clear content hierarchy
+- Strong visual contrast
+- Consistent border radii
+- Balanced section spacing
+
+Avoid using identical card grids in every section.
+
+Every major section should have its own distinctive layout and animation behavior while remaining part of one cohesive design system.
+
+---
+
+# 4. WEBSITE STRUCTURE
+
+Implement the following sections in this exact order:
+
+1. Hero
+2. Animated Technology Marquee
+3. About Me
+4. Technical Expertise
+5. Services
+6. Featured Projects
+7. My Development Process
+8. Why Work With Me
+9. Contact
+10. Footer
+
+Each section should feel like part of a continuous interactive experience.
+
+---
+
+# 5. HERO SECTION — PRESERVE THE WOW FACTOR
+
+Keep the existing giant headline and large interactive 3D character.
+
+Replace the current identity:
+
+"HI, I'M JACK"
+
+With:
+
+**"HI, I'M SUBHAN"**
+
+Preserve the oversized uppercase typography, text gradient, cinematic appearance, and dramatic character overlap.
+
+### Hero Content
+
+**Eyebrow Text:**
+FULL-STACK WEB DEVELOPER
+
+**Main Heading:**
+HI, I'M SUBHAN
+
+**Supporting Copy:**
+"I build modern web applications, scalable backends, and interactive digital experiences that combine clean engineering with engaging design."
+
+**Small Technology Label:**
+REACT · NEXT.JS · NODE.JS · DATABASES
+
+### Call-to-Action Buttons
+
+Primary: **LET'S WORK TOGETHER**
+
+Secondary: **EXPLORE MY WORK**
+
+Both buttons must have smooth hover animations and functional scroll navigation.
+
+### 3D Hero Character
+
+Keep the existing animated 3D character and magnetic interaction.
+
+Do not remove it.
+
+However, make the character feel more connected to a software developer's identity.
+
+Enhance the existing character using subtle surrounding developer-themed elements:
+
+- Floating code brackets
+- Small React-inspired geometric elements
+- Animated terminal-style UI panels
+- Subtle glowing interface fragments
+- Floating developer technology symbols
+
+Use only a few carefully positioned elements.
+
+Avoid cluttering the hero.
+
+Do not introduce random fake code, meaningless typography, or oversized decorative icons.
+
+### Hero Motion
+
+- Heading enters with smooth upward motion.
+- 3D character appears with subtle scale and fade.
+- Floating elements animate at different slow speeds.
+- Magnetic movement remains interactive.
+- Buttons react smoothly to cursor interaction.
+- Hero elements transition naturally into the following section.
+
+Ensure that the headline remains legible and the character does not obscure essential content.
+
+---
+
+# 6. ANIMATED TECHNOLOGY MARQUEE
+
+The existing project-image marquee is attractive.
+
+Preserve its horizontal scrolling concept, but update it for a developer portfolio.
+
+Create two beautiful animated rows with opposing movement.
+
+### Row One
+
+React.js, Next.js, JavaScript, TypeScript, Tailwind CSS, HTML5, CSS3.
+
+### Row Two
+
+Node.js, Express.js, MongoDB, MySQL, PostgreSQL, Framer Motion, GSAP, Git.
+
+Each technology should be displayed through polished logo treatments, monochrome-to-color hover effects, and subtle animated visual containers.
+
+Optionally integrate a few developer-interface previews to make the marquee feel more visually engaging.
+
+### Animation Behavior
+
+- First row moves left.
+- Second row moves right.
+- Continuous seamless looping.
+- Subtle scroll-linked speed changes.
+- Hover interaction for individual technology items.
+- No abrupt transitions or visible animation resets.
+
+Keep the styling clean and premium.
+
+---
+
+# 7. ABOUT ME — HUMAN, PROFESSIONAL, AND CONVINCING
+
+Preserve the current large "ABOUT ME" heading and character-by-character scroll-reveal animation.
+
+Replace the existing 3D designer biography with developer-focused content.
+
+### Section Heading
+
+ABOUT ME
+
+### Main Description
+
+"I'm Subhan, a full-stack web developer specializing in building modern, responsive, and performance-focused web applications.
+
+I work across frontend development, backend architecture, and databases to create complete digital solutions. From crafting interactive React interfaces to developing APIs with Node.js and Express, I enjoy turning complex requirements into clean, maintainable applications.
+
+I also love combining creative animations, thoughtful user experiences, and modern development practices to make websites not only functional, but memorable."
+
+### Supporting Highlights
+
+Display three elegantly animated content highlights:
+
+**Frontend Engineering**  
+Building responsive, reusable, and interactive web interfaces.
+
+**Backend Development**  
+Creating structured server-side applications and APIs.
+
+**Database Architecture**  
+Working with MongoDB, MySQL, and PostgreSQL to manage application data.
+
+Do not invent years of experience.
+
+If experience duration is needed, store it as an editable value such as `[Years of Experience]` and do not display it publicly until confirmed.
+
+### Visual Treatment
+
+Retain the decorative floating 3D objects, but introduce carefully selected technology-related imagery or animated geometric elements.
+
+Use scroll-triggered reveals and subtle parallax.
+
+---
+
+# 8. TECHNICAL EXPERTISE — PREMIUM INTERACTIVE SKILLS SECTION
+
+Create a brand-new section dedicated to my technical skills.
+
+This should be one of the most visually impressive sections of the website.
+
+### Heading
+
+TECH STACK
+
+### Subtitle
+
+"Technologies and tools I use to build modern digital products."
+
+Organize skills into four categories:
+
+**01 / FRONTEND**
+React.js, Next.js, JavaScript, TypeScript, Tailwind CSS, HTML, CSS.
+
+**02 / BACKEND**
+Node.js, Express.js, REST APIs, authentication, server-side architecture.
+
+**03 / DATABASES**
+MongoDB, MySQL, PostgreSQL, database integration and schema design.
+
+**04 / ANIMATION & TOOLS**
+Framer Motion, GSAP, ScrollTrigger, Git, GitHub, interactive components.
+
+### Design Requirements
+
+Do not use boring, repetitive rectangular skill cards.
+
+Create an editorial interactive layout with:
+
+- Large category numbers
+- Oversized section titles
+- Floating technology logos
+- Animated skill labels
+- Hover-triggered transformations
+- Smooth icon transitions
+- Subtle cursor-reactive effects
+
+Consider an interactive technology orbit, animated constellation, or carefully structured floating technology arrangement.
+
+The visual must be readable and usable on mobile.
+
+Do not display arbitrary skill percentages, progress bars, or proficiency scores.
+
+---
+
+# 9. SERVICES — FULL-STACK DEVELOPMENT
+
+Keep the existing white-background Services section and its distinctive oversized numbered-list layout.
+
+Replace the old 3D modeling, rendering, and branding services entirely.
+
+### Heading
+
+WHAT I DO
+
+### Services Content
+
+**01 — FULL-STACK WEB DEVELOPMENT**
+
+"Building complete web applications with modern frontend frameworks, reliable backend systems, and integrated databases."
+
+**02 — FRONTEND DEVELOPMENT**
+
+"Developing responsive, accessible, and interactive interfaces using React, Next.js, TypeScript, and Tailwind CSS."
+
+**03 — BACKEND & API DEVELOPMENT**
+
+"Creating server-side applications, REST APIs, authentication flows, and structured backend integrations using Node.js and Express."
+
+**04 — DATABASE DEVELOPMENT**
+
+"Designing and integrating MongoDB, MySQL, and PostgreSQL databases with attention to data structure, reliability, and maintainability."
+
+**05 — ANIMATED & INTERACTIVE WEBSITES**
+
+"Creating expressive digital experiences with Framer Motion, GSAP, scroll animations, magnetic interactions, and refined micro-interactions."
+
+**06 — WEBSITE OPTIMIZATION & IMPROVEMENTS**
+
+"Improving existing websites through responsive enhancements, code refactoring, performance optimization, and interface refinements."
+
+### UI Behavior
+
+- Oversized numerical typography
+- Smooth scroll-triggered entrance animation
+- Interactive separators
+- Subtle hover movement
+- Animated service descriptions
+- Beautiful transition between each item
+- Carefully controlled whitespace
+
+Add a small animated arrow to indicate interactive elements where appropriate.
+
+---
+
+# 10. FEATURED PROJECTS — TURN THE PORTFOLIO INTO PROOF OF WORK
+
+Preserve the existing sticky-stacking project card effect.
+
+This is an important part of the portfolio's identity.
+
+However, replace the current 3D design projects and unrelated stock imagery.
+
+### Section Heading
+
+SELECTED WORK
+
+### Subtitle
+
+"A selection of web applications, interfaces, and development projects."
+
+Create an easily editable project data structure.
+
+Each project should support:
+
+- Project name
+- Category
+- Short description
+- Technologies used
+- Main preview image
+- Additional screenshots
+- Live URL
+- GitHub URL, if available
+- Project details
+- Optional featured status
+
+### Suggested Project Categories
+
+**PROJECT 01 — Full-Stack Web Application**
+
+Description:
+"A modern application combining a responsive frontend, server-side functionality, and database-driven features."
+
+Suggested Tech:
+React, Node.js, Express, MongoDB.
+
+**PROJECT 02 — Modern Web Platform**
+
+Description:
+"A responsive, component-driven web experience designed with maintainability, usability, and performance in mind."
+
+Suggested Tech:
+Next.js, TypeScript, Tailwind CSS.
+
+**PROJECT 03 — Interactive Website Experience**
+
+Description:
+"A visually engaging website featuring smooth scroll transitions, interactive components, and motion-driven storytelling."
+
+Suggested Tech:
+React, Framer Motion, GSAP.
+
+**PROJECT 04 — Data-Driven Web Application**
+
+Description:
+"A structured web application concept demonstrating API integration, database operations, and intuitive user interfaces."
+
+Suggested Tech:
+Node.js, Express, PostgreSQL or MySQL.
+
+### Important Content Integrity Rule
+
+These are sample project structures, not verified projects that I have completed.
+
+Do not display fictional client work as real experience.
+
+Until I provide actual project details, show clearly identified demo placeholders in an editable project data file.
+
+Create an architecture that makes it easy to replace these sample projects with my real projects later.
+
+### Project Card Design
+
+Use the existing sticky-stacking animated layout.
+
+Improve it with:
+
+- Full-width visual previews
+- Sophisticated image reveal animations
+- Large project numbering
+- Project category labels
+- Technology badges
+- Animated project titles
+- Interactive hover transitions
+- Live Preview and Source Code links when real URLs are supplied
+
+Never create fake functional links.
+
+Project cards should feel visually different from standard website templates.
+
+---
+
+# 11. DEVELOPMENT PROCESS — NEW SECTION
+
+Create a sophisticated process section explaining how I approach development.
+
+### Heading
+
+HOW I BUILD
+
+### Intro
+
+"From understanding the idea to delivering a refined digital product, I focus on clarity, thoughtful engineering, and attention to detail."
+
+### Process Steps
+
+**01 — DISCOVER**
+
+"Understanding project goals, requirements, users, and technical needs."
+
+**02 — PLAN**
+
+"Defining the application structure, technology stack, components, and development approach."
+
+**03 — DEVELOP**
+
+"Building responsive interfaces, backend functionality, and database integrations with maintainable code."
+
+**04 — REFINE**
+
+"Improving usability, responsiveness, animations, accessibility, and application performance."
+
+**05 — DELIVER**
+
+"Testing essential functionality and preparing the application for deployment and future improvements."
+
+### Visual Direction
+
+Create an animated vertical timeline or scroll-driven development journey.
+
+As the visitor scrolls:
+
+- The connecting timeline progresses.
+- Each step becomes active.
+- Numbers transition into focus.
+- Descriptions reveal smoothly.
+- Decorative technical elements respond subtly.
+
+The section should feel cinematic, not corporate.
+
+---
+
+# 12. WHY WORK WITH ME — NEW SECTION
+
+Create an elegant section that explains the value of working with me.
+
+### Heading
+
+BUILT WITH PURPOSE
+
+### Intro
+
+"Great web experiences require more than attractive interfaces. I focus on thoughtful development, practical solutions, and details that improve how applications look, feel, and function."
+
+### Four Key Principles
+
+**Clean, Maintainable Code**
+"Building reusable components and organized application structures that are easier to extend."
+
+**Performance-Minded Development**
+"Considering responsiveness, loading behavior, and efficient implementation throughout development."
+
+**End-to-End Thinking**
+"Connecting frontend interfaces, backend functionality, and databases into cohesive applications."
+
+**Detail-Oriented Interfaces**
+"Using thoughtful layouts, engaging interactions, and subtle animation to elevate the user experience."
+
+### Layout
+
+Design this section using a creative asymmetric layout.
+
+Avoid another standard four-card grid.
+
+Consider large editorial text, interactive numbered panels, and a pinned content area that changes as the user scrolls.
+
+---
+
+# 13. CONTACT SECTION — HIGH-CONVERSION FINAL EXPERIENCE
+
+Create a visually striking contact section.
+
+This should feel like a strong finale rather than a conventional contact form.
+
+### Main Heading
+
+HAVE A PROJECT IN MIND?
+
+### Supporting Headline
+
+LET'S BUILD SOMETHING GREAT.
+
+### Supporting Text
+
+"Whether you're planning a new web application, improving an existing platform, or exploring an interactive website concept, I'd love to hear about it."
+
+### Contact Details
+
+Name: Subhan  
+Email: info@subhan.com
+
+### Primary CTA
+
+**LET'S TALK**
+
+Use a working `mailto:info@subhan.com` link.
+
+### Secondary Actions
+
+- Copy Email Address
+- View Projects
+- Back to Top
+
+### Optional Contact Form
+
+If implementing a form, use:
+
+- Name
+- Email
+- Project Type
+- Message
+- Submit
+
+Include proper validation, accessible error messages, loading feedback, and success/error states.
+
+Do not pretend to send messages without an actual backend or delivery service.
+
+If no service is configured, clearly label the form as requiring integration, and keep email contact fully functional.
+
+### Contact Design
+
+- Huge animated typography
+- Subtle glowing cursor-following light
+- Magnetic contact button
+- Smooth scroll-reveal animations
+- Premium dark aesthetic
+- Strong contrast and whitespace
+
+---
+
+# 14. FOOTER
+
+Create a minimal professional footer.
+
+### Content
+
+SUBHAN — FULL-STACK DEVELOPER
+
+"Building thoughtful digital experiences through code and creativity."
+
+Email: info@subhan.com
+
+Copyright text should use the current year automatically.
+
+Optional social links:
+
+- GitHub
+- LinkedIn
+- Other relevant professional platforms
+
+Do not invent social account URLs.
+
+Only show links when valid URLs are provided.
+
+Add a subtle animated back-to-top interaction.
+
+---
+
+# 15. ANIMATION SYSTEM — VERY IMPORTANT
+
+Preserve all existing working animation components wherever possible.
+
+Do not remove the existing:
+
+- Magnet component
+- FadeIn component
+- AnimatedText component
+- Scroll-driven marquee
+- Sticky project stacking
+- Hero character interaction
+- Button hover animations
+
+Improve the animation architecture through reusable components and consistent timing.
+
+### Recommended Animation Behaviors
+
+**Hero**
+Magnetic character interaction, fade-up entrance, floating decorative objects.
+
+**Marquee**
+Seamless bidirectional movement with subtle scroll responsiveness.
+
+**About**
+Character-by-character scroll reveal.
+
+**Tech Stack**
+Interactive technology icons, progressive category reveals.
+
+**Services**
+Staggered entry and responsive hover states.
+
+**Projects**
+Sticky stacking, subtle scaling, image reveals, hover transitions.
+
+**Process**
+Scroll-progress timeline with active states.
+
+**Why Work With Me**
+Pinned editorial storytelling with smooth content transitions.
+
+**Contact**
+Animated oversized heading, magnetic CTA, subtle cursor effects.
+
+### Smooth Scrolling
+
+If integrating Lenis, ensure it is coordinated correctly with scroll-triggered animations.
+
+Do not create competing scroll loops or broken scroll behavior.
+
+### Performance Requirements
+
+- Prefer GPU-friendly transforms and opacity.
+- Avoid excessive simultaneous animation.
+- Minimize layout-triggering effects.
+- Use Intersection Observer or animation-library viewport utilities where appropriate.
+- Optimize image loading.
+- Reduce animations on low-powered devices when appropriate.
+- Respect `prefers-reduced-motion`.
+- Keep animations smooth without sacrificing usability.
+
+Motion must enhance the experience rather than distract from content.
+
+---
+
+# 16. NAVIGATION & RESPONSIVENESS
+
+Replace the current navigation:
+
+ABOUT | PRICE | PROJECTS | CONTACT
+
+With:
+
+ABOUT | EXPERTISE | SERVICES | PROJECTS | CONTACT
+
+Remove "Price" from the main navigation.
+
+Create a premium responsive navigation system.
+
+### Desktop
+
+- Minimal navigation
+- Strong typography
+- Smooth hover feedback
+- Active section indicator
+- Functional anchor navigation
+- Optional subtle background treatment while scrolling
+
+### Mobile
+
+- Beautiful animated menu
+- Comfortable touch targets
+- Smooth open and close transitions
+- Clean section navigation
+- No oversized overlapping elements
+
+### Responsive Requirements
+
+Support:
+- 320px and 375px mobile widths
+- Larger smartphones
+- Tablets
+- Laptops
+- Desktop displays
+- Ultra-wide screens
+
+Ensure the enormous hero typography remains visually strong without unwanted clipping or horizontal scrolling.
+
+Sticky effects must gracefully adapt or simplify on small screens.
+
+The final design should work with both mouse and touch interactions.
+
+---
+
+# 17. CODE QUALITY & IMPLEMENTATION REQUIREMENTS
+
+Work inside the existing React + TypeScript + Tailwind CSS project.
+
+Do not unnecessarily replace the framework, dependency structure, or working components.
+
+Use Framer Motion / Motion for React for existing animation logic.
+
+Add GSAP or Lenis only where technically justified and where they do not conflict with current motion behavior.
+
+### Architecture
+
+Create clean reusable components for:
+
+- Navigation
+- Hero
+- TechnologyMarquee
+- About
+- TechStack
+- Services
+- FeaturedProjects
+- DevelopmentProcess
+- WhyWorkWithMe
+- Contact
+- Footer
+
+Separate portfolio content into structured editable data objects.
+
+Use reusable UI components for:
+
+- Buttons
+- AnimatedHeadings
+- RevealText
+- MagneticElements
+- SectionWrappers
+- ProjectCards
+- TechnologyItems
+
+### Engineering Standards
+
+- TypeScript-safe components
+- Semantic HTML
+- Accessible interactions
+- Proper keyboard navigation
+- Responsive Tailwind utilities
+- Optimized images
+- No broken imports
+- No unnecessary dependencies
+- No duplicated animation logic
+- No console errors
+- No fake interactions
+- No placeholder links presented as functional
+- Consistent code formatting
+
+Ensure existing functionality remains operational after all changes.
+
+---
+
+# 18. SEO & PROFESSIONAL PRESENTATION
+
+Update the document title to:
+
+**Subhan | Full-Stack & MERN Stack Developer**
+
+Suggested meta description:
+
+"Explore Subhan's full-stack developer portfolio featuring React, Next.js, Node.js, MongoDB, PostgreSQL, modern web development, and interactive user experiences."
+
+Use appropriate semantic heading hierarchy.
+
+Add Open Graph metadata where applicable.
+
+Ensure images have meaningful alternative text.
+
+Improve loading behavior, accessibility, and general search-engine friendliness.
+
+Do not make unsupported performance or ranking claims.
+
+---
+
+# 19. WHAT TO AVOID
+
+DO NOT:
+
+- Replace the website with a generic SaaS landing page.
+- Remove the existing animation style.
+- Remove the magnetic 3D character.
+- Replace every section with standard cards.
+- Add excessive gradients or random glowing effects.
+- Use meaningless AI-generated text.
+- Invent experience duration or client testimonials.
+- Display fictional projects as real client work.
+- Introduce broken navigation links.
+- Create visually impressive but nonfunctional buttons.
+- Use excessive whitespace between every section.
+- Make the mobile experience secondary.
+- Make the website feel like a basic résumé.
+- Introduce animation libraries without a clear purpose.
+
+---
+
+# 20. FINAL EXPECTED RESULT
+
+Deliver a complete, polished, responsive, highly interactive personal portfolio for:
+
+**Subhan — Full-Stack & MERN Stack Developer**
+
+The updated portfolio must combine:
+
+1. The original website's bold typography and memorable 3D aesthetics.
+2. Professional technical content and clear developer positioning.
+3. Comprehensive technology expertise.
+4. Detailed full-stack development services.
+5. An expandable real-project portfolio architecture.
+6. Beautiful interactive animations across all major sections.
+7. A professional development process.
+8. Strong communication of development strengths.
+9. Clear, functional contact options.
+10. Excellent desktop and mobile responsiveness.
+
+### Implementation Instructions
+
+First, inspect the existing codebase and identify components, styles, assets, and animations that should be preserved.
+
+Then update the website directly, implementing all sections and replacing the outdated 3D-designer content with the developer-focused content provided above.
+
+Preserve existing working animation behavior while improving code architecture and overall usability.
+
+After implementation, review the complete application for layout issues, overflow, overlapping elements, missing content, broken interactions, console errors, and animation performance problems.
+
+Fix discovered issues before considering the update complete.
+
+**QUALITY TARGET: A premium, memorable, technically credible developer portfolio with the visual polish of an Awwwards-inspired interactive website, without compromising functionality or performance.**
+
+The final website should clearly communicate:
+
+**"I'm Subhan. I build powerful full-stack web applications and beautiful interactive digital experiences."**
