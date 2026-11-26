@@ -55,7 +55,7 @@ export const PERSONAL_INFO = {
   email: 'farzeeltariq994@gmail.com',
   phone: '+92 344 7721924',
   whatsappNumber: '923447721924',
-  web3FormsKey: '20b40409-2b85-40ce-b37e-6a53045c26e3',
+  web3FormsKey: '3f6c0e36-c3bb-46bc-855e-d0ee36ba2603',
   location: 'Lahore, Pakistan',
   linkedin: 'https://www.linkedin.com/in/farzeel-tariq-ab36a2270/',
   experienceYears: '4+ Years',
