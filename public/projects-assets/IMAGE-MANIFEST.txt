@@ -1,0 +1,25 @@
+01 ThinkDone Solutions UK
+Website: https://thinkdonesolutions.co.uk/
+  01-ThinkDone-UK/col1Image1.png | Top left | 800 x 450 px | Homepage / brand showcase
+  01-ThinkDone-UK/col1Image2.png | Bottom left | 800 x 600 px | Services and strategy
+  01-ThinkDone-UK/col2Image.png | Main right | 1200 x 900 px | Growth showcase
+
+02 LastExit Norway
+Website: https://lastexit.no/
+  02-LastExit-Norway/col1Image1.png | Top left | 800 x 450 px | Brand campaign hero
+  02-LastExit-Norway/col1Image2.png | Bottom left | 800 x 600 px | Featured menu favourites
+  02-LastExit-Norway/col2Image.png | Main right | 1200 x 900 px | Website and ordering showcase
+
+03 KUVRD
+Website: https://kuvrd.ca/
+Source: Generated brand concepts based on KUVRD, not live website screenshots.
+  03-KUVRD/col1Image1.png | Top left | 800 x 450 px | Heritage streetwear hero
+  03-KUVRD/col1Image2.png | Bottom left | 800 x 600 px | Fashion collection editorial
+  03-KUVRD/col2Image.png | Main right | 1200 x 900 px | E-commerce website mockup
+
+04 Saibaan Care
+Website: https://saibaancare.com/
+Source: New branded visuals, generated lifestyle scenes and original website/app screenshot-based presentation.
+  04-Saibaan-Care/col1Image1.png | Top left | 800 x 450 px  |  16:9 | Family care hero | Generated lifestyle photography / brand-inspired artwork
+  04-Saibaan-Care/col1Image2.png | Bottom left | 800 x 600 px  |  4:3 | Home-care lifestyle showcase | Generated lifestyle photography / original brand mark
+  04-Saibaan-Care/col2Image.png | Main right | 1200 x 900 px  |  4:3 | Website and care app showcase | Original site and app captures / new presentation

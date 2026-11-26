@@ -223,12 +223,9 @@ export const PROJECTS: ProjectItem[] = [
       'Zero crawl errors and 98+ PageSpeed performance score',
     ],
     technologies: ['Local SEO', 'Off-Page Link Building', 'Technical Audit', 'Ahrefs', 'GSC', 'Schema.org'],
-    col1Image1:
-      'https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055344_5eff02e0-87a5-41ce-b64f-eb08da8f33db.png&w=1280&q=85',
-    col1Image2:
-      'https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055431_11d841fd-8b41-46a5-82e4-b04f2407a7d8.png&w=1280&q=85',
-    col2Image:
-      'https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055451_e317bf2d-28d4-48cc-86b0-6f72f25b6327.png&w=1280&q=85',
+    col1Image1: '/projects-assets/01-ThinkDone-UK/col1Image1.png',
+    col1Image2: '/projects-assets/01-ThinkDone-UK/col1Image2.png',
+    col2Image: '/projects-assets/01-ThinkDone-UK/col2Image.png',
     liveUrl: 'https://thinkdonesolutions.co.uk/',
     featured: true,
   },
@@ -253,12 +250,9 @@ export const PROJECTS: ProjectItem[] = [
       'Steady month-over-month growth in qualified Scandinavian referral and organic traffic',
     ],
     technologies: ['International SEO', 'Off-Page Authority', 'Entity Optimization', 'SEMrush', 'Ahrefs'],
-    col1Image1:
-      'https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055654_911201c5-36d9-4bc6-bac7-331adfce159f.png&w=1280&q=85',
-    col1Image2:
-      'https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055723_5ceda0b8-d9c2-4665-b2e3-83ba19ba76d1.png&w=1280&q=85',
-    col2Image:
-      'https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055753_adc5dcbd-a8e6-49c0-b43a-9b030d835cea.png&w=1280&q=85',
+    col1Image1: '/projects-assets/02-LastExit-Norway/col1Image1.png',
+    col1Image2: '/projects-assets/02-LastExit-Norway/col1Image2.png',
+    col2Image: '/projects-assets/02-LastExit-Norway/col2Image.png',
     liveUrl: 'https://lastexit.no/',
     featured: true,
   },
@@ -266,8 +260,8 @@ export const PROJECTS: ProjectItem[] = [
     id: 'project-3',
     number: '03',
     category: 'E-Commerce SEO & Technical Optimization',
-    name: 'Kuvrd Canada',
-    tagline: 'E-commerce product schema, Core Web Vitals refinement & category search scaling',
+    name: 'KUVRD',
+    tagline: 'Heritage streetwear hero, fashion editorial & e-commerce scaling',
     description:
       'Directed full-funnel organic search optimization for Canada-based e-commerce brand Kuvrd.ca. Solved complex canonicalization and faceted navigation indexing bloat, enriched product pages with Offer and Product schema, and streamlined internal linking to drive buyer-intent shoppers directly to category landing pages.',
     challenge:
@@ -283,12 +277,9 @@ export const PROJECTS: ProjectItem[] = [
       'Rich snippet stars and pricing displayed across Google Canada SERP',
     ],
     technologies: ['E-Commerce SEO', 'Technical Audits', 'Core Web Vitals', 'Screaming Frog', 'GA4'],
-    col1Image1:
-      'https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055759_963cfb0b-4bd1-4b0f-9d0a-09bd6cf95b2f.png&w=1280&q=85',
-    col1Image2:
-      'https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_060108_438f781a-9846-4dcc-89ab-c4e6cb830f5b.png&w=1280&q=85',
-    col2Image:
-      'https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055818_9d062121-ad7e-46b9-999a-1a6a692ef1ee.png&w=1280&q=85',
+    col1Image1: '/projects-assets/03-KUVRD/col1Image1.png',
+    col1Image2: '/projects-assets/03-KUVRD/col1Image2.png',
+    col2Image: '/projects-assets/03-KUVRD/col2Image.png',
     liveUrl: 'https://kuvrd.ca/',
     featured: true,
   },
@@ -297,7 +288,7 @@ export const PROJECTS: ProjectItem[] = [
     number: '04',
     category: 'Healthcare On-Page & Local Discovery',
     name: 'Saibaan Care',
-    tagline: 'Local 3-Pack supremacy, patient search intent mapping & semantic architecture',
+    tagline: 'Family care hero, home-care lifestyle showcase & care app presentation',
     description:
       'Architected complete On-Page and Local SEO strategy for Saibaan Care. Implemented medical schema standards, mapped patient care search intent across dedicated service pages, eliminated 404 dead ends, and set up Google Business Profile optimizations that generated consistent inbound patient inquiries.',
     challenge:
@@ -313,12 +304,9 @@ export const PROJECTS: ProjectItem[] = [
       'Sub-2-second mobile load time with 100% crawl accessibility',
     ],
     technologies: ['Local SEO & GMB', 'On-Page SEO', 'Medical Schema', 'Microsoft Clarity', 'Ubersuggest'],
-    col1Image1:
-      'https://motionsites.ai/assets/hero-transform-data-preview-Cx5OU29N.gif',
-    col1Image2:
-      'https://motionsites.ai/assets/hero-celestia-preview-0yO3jXO8.gif',
-    col2Image:
-      'https://motionsites.ai/assets/hero-orbit-web3-preview-BXt4OttD.gif',
+    col1Image1: '/projects-assets/04-Saibaan-Care/col1Image1.png',
+    col1Image2: '/projects-assets/04-Saibaan-Care/col1Image2.png',
+    col2Image: '/projects-assets/04-Saibaan-Care/col2Image.png',
     liveUrl: 'https://saibaancare.com/',
     featured: true,
   },
