@@ -26,27 +26,28 @@ export const ContactSection: React.FC = () => {
     setSubmitting(true);
 
     try {
-      const response = await fetch(`https://formsubmit.co/ajax/${PERSONAL_INFO.email}`, {
+      const response = await fetch('https://api.web3forms.com/submit', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
           'Accept': 'application/json',
         },
         body: JSON.stringify({
-          _subject: `🎯 New SEO Project Lead: ${name} (${projectType})`,
-          _template: 'table',
-          _captcha: 'false',
-          Name: name,
-          Email: email,
-          'Service Focus': projectType,
-          'Website & Goals': message,
+          access_key: PERSONAL_INFO.web3FormsKey,
+          subject: `🎯 New SEO Lead: ${name} (${projectType})`,
+          from_name: 'Farzeel Tariq SEO Portfolio',
+          name: name,
+          email: email,
+          service_focus: projectType,
+          message: message,
         }),
       });
 
-      if (response.ok) {
+      const result = await response.json();
+      if (result.success) {
         setSubmitted(true);
       } else {
-        // Still show success for UI grace, or log error
+        console.error('Submission failed:', result);
         setSubmitted(true);
       }
     } catch (error) {

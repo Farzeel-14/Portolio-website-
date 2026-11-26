@@ -29,22 +29,28 @@ export const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) =
     setSubmitting(true);
 
     try {
-      await fetch(`https://formsubmit.co/ajax/${PERSONAL_INFO.email}`, {
+      const response = await fetch('https://api.web3forms.com/submit', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
           'Accept': 'application/json',
         },
         body: JSON.stringify({
-          _subject: `🎯 New SEO Lead from Modal: ${name}`,
-          _template: 'table',
-          _captcha: 'false',
-          Name: name,
-          Email: email,
-          Message: message,
+          access_key: PERSONAL_INFO.web3FormsKey,
+          subject: `🎯 New SEO Lead from Modal: ${name}`,
+          from_name: 'Farzeel Tariq SEO Portfolio',
+          name: name,
+          email: email,
+          message: message,
         }),
       });
-      setSubmitted(true);
+      const result = await response.json();
+      if (result.success) {
+        setSubmitted(true);
+      } else {
+        console.error('Modal submission failed:', result);
+        setSubmitted(true);
+      }
     } catch (error) {
       console.error('Modal submission error:', error);
       setSubmitted(true);
